@@ -26,7 +26,7 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about" onclick={() => setContactSelected(false)}>
+            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
               About me
             </a>
           </li>
